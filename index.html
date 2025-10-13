@@ -170,6 +170,67 @@
         </div>
     </section>
 
+    <!-- Como o Data Center Funciona -->
+    <section class="datacenter-flow-section" id="datacenter-flow">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Como o Data Center Funciona</h3>
+                <p class="section-subtitle">
+                    Veja o fluxo desde a entrada das duas ISPs até a saída para o backbone.
+                </p>
+            </div>
+            <div class="datacenter-flow-content">
+                <img src="data.png" alt="Fluxo do Data Center" class="datacenter-flow-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Distribuição e Passagem de Cabos Estruturados -->
+    <section class="cabling-section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Distribuição e Passagem de Cabos Estruturados</h3>
+                <p class="section-subtitle">
+                    A infraestrutura de cabeamento estruturado segue padrões técnicos e normas vigentes, com diferenciação por cores para facilitar a identificação visual e a manutenção.
+                </p>
+            </div>
+            <div class="cabling-cards">
+                <div class="cabling-card cabling-blue">
+                    <h4 class="cabling-title">1. Cabos Azuis – Dados (Piso Elevado)</h4>
+                    <ul class="cabling-list">
+                        <li><strong>Função:</strong> Dados para estações, impressoras e dispositivos de TI.</li>
+                        <li><strong>Trajeto:</strong> Instalados sob o piso elevado, do rack de telecomunicações (TR) até as tomadas de rede.</li>
+                        <li><strong>Organização:</strong> Agrupados e fixados com abraçadeiras, respeitando curvatura e separação de cabos elétricos.</li>
+                    </ul>
+                </div>
+                <div class="cabling-card cabling-yellow">
+                    <h4 class="cabling-title">2. Cabos Amarelos – Patch Cords de Equipamentos Finais (Ponto de Rede até o Dispositivo)</h4>
+                    <ul class="cabling-list">
+                        <li><strong>Função:</strong> Permitir mobilidade e conexão direta dos dispositivos à rede.</li>
+                        <li><strong>Trajeto:</strong> Do Keystone (na parede, piso ou teto) até o equipamento final.</li>
+                        <li><strong>Utilização:</strong> Utilizados para a conexão final entre o ponto de rede (Keystone RJ-45) e os equipamentos terminais, como computadores, impressoras, telefones IP e access points.</li>
+                    </ul>
+                </div>
+                <div class="cabling-card cabling-red">
+                    <h4 class="cabling-title">3. Cabos Vermelhos – Backbone Vertical (Entre Andares)</h4>
+                    <ul class="cabling-list">
+                        <li><strong>Função:</strong> Interligação entre racks de cada andar e o rack principal no Data Center.</li>
+                        <li><strong>Trajeto:</strong> Roteados por shafts técnicos, dutos ou eletrocalhas verticais entre subsolo, térreo e superiores.</li>
+                        <li><strong>Objetivo:</strong> Transportar tráfego de dados e comunicação entre os andares.</li>
+                    </ul>
+                </div>
+                <div class="cabling-card cabling-green">
+                    <h4 class="cabling-title">4. Cabos Verdes – Patch Cords e Interligações Internas (Racks)</h4>
+                    <ul class="cabling-list">
+                        <li><strong>Função:</strong> Realizar as conexões finais entre portas de switches e painéis de conexão, garantindo a flexibilidade e reorganização do cabeamento.</li>
+                        <li><strong>Trajeto:</strong> Restrito ao interior dos racks de telecomunicações e Data Center.</li>
+                        <li><strong>Organização:</strong> Os cabos serão devidamente identificados, agrupados com velcro e organizados por canaletas internas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Data Center Section -->
     <section class="datacenter-section" id="datacenter">
         <div class="container">
@@ -205,71 +266,6 @@
 
                 <div class="floor-image-container">
                     <img id="floor-image" src="tr.png" alt="Planta Baixa" class="floor-image">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Como o Data Center Funciona -->
-    <section class="datacenter-flow-section" id="datacenter-flow">
-        <div class="container">
-            <div class="section-header">
-                <h3 class="section-title">Como o Data Center Funciona</h3>
-                <p class="section-subtitle">
-                    Veja o fluxo desde a entrada das duas ISPs até a saída para o backbone.
-                </p>
-            </div>
-            <div class="datacenter-flow-content">
-                <img src="data.png" alt="Fluxo do Data Center" class="datacenter-flow-image">
-            </div>
-        </div>
-    </section>
-
-    <!-- Infrastructure Section -->
-    <section class="infrastructure-section" id="infraestrutura">
-        <div class="container">
-            <div class="section-header">
-                <h3 class="section-title">Infraestrutura Tecnológica</h3>
-                <p class="section-subtitle">Equipamentos e recursos utilizados em nossa infraestrutura</p>
-            </div>
-
-            <div id="infrastructure-tables"></div>
-        </div>
-    </section>
-
-    <!-- Distribuição e Passagem de Cabos Estruturados -->
-    <section class="cabling-section">
-        <div class="container">
-            <div class="section-header">
-                <h3 class="section-title">Distribuição e Passagem de Cabos Estruturados</h3>
-                <p class="section-subtitle">
-                    A infraestrutura de cabeamento estruturado segue padrões técnicos e normas vigentes, com diferenciação por cores para facilitar a identificação visual e a manutenção.
-                </p>
-            </div>
-            <div class="cabling-cards">
-                <div class="cabling-card cabling-blue">
-                    <h4 class="cabling-title">1. Cabos Azuis – Dados (Piso Elevado)</h4>
-                    <ul class="cabling-list">
-                        <li><strong>Função:</strong> Dados para estações, impressoras e dispositivos de TI.</li>
-                        <li><strong>Trajeto:</strong> Instalados sob o piso elevado, do rack de telecomunicações (TR) até as tomadas de rede.</li>
-                        <li><strong>Organização:</strong> Agrupados e fixados com abraçadeiras, respeitando curvatura e separação de cabos elétricos.</li>
-                    </ul>
-                </div>
-                <div class="cabling-card cabling-yellow">
-                    <h4 class="cabling-title">2. Cabos Amarelos – Voz e Serviços (Forro do Teto)</h4>
-                    <ul class="cabling-list">
-                        <li><strong>Função:</strong> Voz, automação, câmeras e controle.</li>
-                        <li><strong>Trajeto:</strong> Passam acima do forro do teto, apoiados em bandejas ou eletrocalhas perfuradas.</li>
-                        <li><strong>Fixação:</strong> Sustentados por suportes e identificados em todo o percurso.</li>
-                    </ul>
-                </div>
-                <div class="cabling-card cabling-red">
-                    <h4 class="cabling-title">3. Cabos Vermelhos – Backbone Vertical (Entre Andares)</h4>
-                    <ul class="cabling-list">
-                        <li><strong>Função:</strong> Interligação entre racks de cada andar e o rack principal no Data Center.</li>
-                        <li><strong>Trajeto:</strong> Roteados por shafts técnicos, dutos ou eletrocalhas verticais entre subsolo, térreo e superiores.</li>
-                        <li><strong>Objetivo:</strong> Transportar tráfego de dados e comunicação entre os andares.</li>
-                    </ul>
                 </div>
             </div>
         </div>
