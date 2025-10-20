@@ -87,11 +87,11 @@ const products = [
         url: "https://www.amazon.com.br/SWITCH-GERENCIÁVEL-GIGABIT-JETSTREAM-TL-SG3428/dp/B08MH7LN99"
     },
     {
-        nome: "Notebook Dell Inspiron",
-        preco: "R$ 4.799,00",
-        quantidade:244,
+        nome : "Notebook Acer ANV15-51-73E9 (Nitro V 15)",
+        preco: "R$ 5.039,10",
+        quantidade: 244,
         categoria: "Infraestrutura & Periféricos",
-        url: "https://www.amazon.com.br/Notebook-Dell-Inspiron-I15-I1300-A80P-Carbono/dp/B0F7J4NR3G"
+        url: "https://www.mercadolivre.com.br/notebook-acer-anv15-51-73e9-ci7-16gb-512gb-ssd-rtx3050/p/MLB52117373"
     },
     {
         nome: "Impressora HP LaserJet Pro MFP 4103FDW",
