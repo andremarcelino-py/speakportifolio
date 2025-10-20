@@ -75,7 +75,7 @@ const products = [
     {
         nome: "Rack APC NetShelter SX 42U AR3350",
         preco: "R$ 14.230,00",
-        quantidade: 1,
+        quantidade: 2,
         categoria: "Infraestrutura & Periféricos",
         url: "https://www.manchesterautomacao.com.br/rack-apc-19-netshelter-sx-42u-ar3350"
     },
