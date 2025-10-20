@@ -768,8 +768,12 @@ td.font-medium {
     border-left: 6px solid #ccc;
 }
 .cabling-blue { border-color: #2563eb; }
-.cabling-yellow { border-color: #eab308; }
+.cabling-yellow { border-color: #f5f900; }
 .cabling-red { border-color: #dc2626; }
+.cabling-card.cabling-orange {border-left: 4px solid #ff8a00;}
+.cabling-green { border-color: #16a34a; }
+
+
 .cabling-title {
     font-size: 1.1rem;
     margin-bottom: 12px;
@@ -824,4 +828,12 @@ td.font-medium {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
+}
+
+.datacenter-flow-image {
+    display: block;
+    width: 100%;       
+    max-width: 360px; 
+    height: auto;      
+    margin: 0 auto;   
 }

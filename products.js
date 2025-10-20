@@ -17,21 +17,21 @@ const products = [
     {
         nome: "Roteador Core Cisco ASR 1001-X",
         preco: "R$ 15.000,00",
-        quantidade: 1,
+        quantidade: 2,
         categoria: "Networking & Conectividade",
         url: "https://produto.mercadolivre.com.br/MLB-4206200597-roteador-cisco-asr-1001-x-cinza-fonte-redundante-_JM"
     },
     {
         nome: "Switch Core Cisco Catalyst 9500-24Y4C",
         preco: "R$ 19.058,48",
-        quantidade: 23,
+        quantidade: 2,
         categoria: "Networking & Conectividade",
         url: "https://www.router-switch.com/c9500-24y4c-a.html"
     },
     {
         nome: "Switch Acesso Cisco Catalyst 2960X-24TS-L",
         preco: "R$ 668,81",
-        quantidade: 2,
+        quantidade: 23,
         categoria: "Networking & Conectividade",
         url: "https://networkoutlet.com/products/cisco-catalyst-2960-x-24-gige-4-x-1g-sfp-lan-base?variant=30323059621968"
     },
@@ -41,13 +41,6 @@ const products = [
         quantidade: 10,
         categoria: "Networking & Conectividade",
         url: "https://www.amazon.com.br/Corporativo-AP-1350-AC-S-Intelbras/dp/B0B644DLGX"
-    },
-    {
-        nome: "Switch Gerenciável TP-Link TL-SG3428",
-        preco: "R$ 1.159,00",
-        quantidade: 2,
-        categoria: "Networking & Conectividade",
-        url: "https://www.amazon.com.br/SWITCH-GERENCIÁVEL-GIGABIT-JETSTREAM-TL-SG3428/dp/B08MH7LN99"
     },
     {
         nome: "Cabo de Rede Furukawa Cat6a",
@@ -75,7 +68,7 @@ const products = [
     {
         nome: "Mini Rack Padrão 19\" 8U x 470mm",
         preco: "R$ 312,90",
-        quantidade: 22,
+        quantidade: 23,
         categoria: "Infraestrutura & Periféricos",
         url: "https://www.mercadolivre.com.br/mini-rack-padro-19-pol-8u-x-470mm-de-parede/p/MLB53044415"
     },
@@ -96,7 +89,7 @@ const products = [
     {
         nome: "Notebook Dell Inspiron",
         preco: "R$ 4.799,00",
-        quantidade:242,
+        quantidade:244,
         categoria: "Infraestrutura & Periféricos",
         url: "https://www.amazon.com.br/Notebook-Dell-Inspiron-I15-I1300-A80P-Carbono/dp/B0F7J4NR3G"
     },
@@ -136,5 +129,27 @@ const products = [
         quantidade: 1,
         categoria: "Servidores",
         url: "https://www.storagehouse.com.br/synology-rs2423rp-plus?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&srsltid=AfmBOooBUVZiktYbqRQT7wxwd1IhmCy7eYGHcffI2zozpqKe_F5shtx3v1k"
+    },
+
+    {
+        nome: "NVR 16 canais Gravador Hikvision DS-7616NI-Q2-4k",
+        preco: "R$ 1.399,00",
+        quantidade: 1,
+        categoria: "Networking & Conectividade",
+        url: "https://www.mercadolivre.com.br/nvr-16-canais-gravador-hikvision-ds-7616ni-q2-4k/p/MLB21553117?matt_tool=18956390&pdp_filters=item_id%3AMLB5823387374&from=gshop&utm_source=chatgpt.com"
+    },
+    {
+        "nome": "Switch TP-Link 8 Portas Gigabit PoE+ (126W) - TL-SG1008MP",
+        "preco": "R$ 696,00",
+        "quantidade": 1,
+        "categoria": "Networking & Conectividade",
+        "url": "https://www.kabum.com.br/produto/202920/switch-tp-link-8-portas-10-100-1000-poe-gigabit-rack-mesa-tl-sg1008mp"
+    },
+    {
+        "nome": "Câmera IP Bullet Intelbras VIP 1230 B G5 (2MP) PoE ONVIF",
+        "preco": "R$ 287,00",
+        "quantidade": 6,
+        "categoria": "Networking & Conectividade",
+        "url": "https://www.mercadolivre.com.br/intelbras-serie-1000-vip-1230-b-g5-branco-1-unidade/p/MLB45819134?product_trigger_id=MLB47098049&picker=true&quantity=1"
     }
 ];

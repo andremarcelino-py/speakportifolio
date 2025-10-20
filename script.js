@@ -6,6 +6,7 @@ const employeeData = {
         { department: 'Desenvolvimento', count: 50 },
         { department: 'Sala de Testes', count: 9 },
         { department: 'Administração', count: 34 },
+        { department: 'Vigilância', count: 2 },
         { department: 'Recepção', count: 4 }
 
     ],
@@ -22,7 +23,8 @@ const employeeData = {
         { department: 'Logística Transporte', count: 5 },
         { department: 'Suporte / TI', count: 15 },
         { department: 'Logística Estoque', count: 7 },
-        { department: 'Data Center', count: 6 }
+        { department: 'Data Center', count: 6 },
+        { department: 'Vigilância', count: 2 }
     ]
 };
 
@@ -35,7 +37,7 @@ const infrastructureProducts = [
             { name: 'Roteador Core Cisco ASR 1001-X', spec: 'Cinza, Fonte redundante', quantity: 2 },
             { name: 'Switch Core Cisco Catalyst 9500-24Y4C', spec: '24Y4C', quantity: 2 },
             { name: 'Switch Acesso Cisco Catalyst 2960X-24TS-L', spec: '24 GigE, 4x 1G SFP, LAN Base', quantity: 23 },
-            { name: 'Access Point Intelbras AP 1350 AC-S', spec: 'Corporativo WiFi', quantity: 1 },
+            { name: 'Access Point Intelbras AP 1350 AC-S', spec: 'Corporativo WiFi', quantity: 10 },
             { name: 'Switch Gerenciável TP-Link TL-SG3428', spec: 'Gigabit Jetstream', quantity: 1 },
             { name: 'Cabo de Rede Furukawa Cat6a', spec: 'Gigalan Cat6 305m', quantity: 1 },
             { name: 'Tomada RJ45 Keystone Furukawa', spec: 'Cat6', quantity: 1 },
@@ -56,8 +58,8 @@ const infrastructureProducts = [
             { name: 'Mini Rack Padrão 19" 8U x 470mm', spec: 'De Parede', quantity: 2 },
             { name: 'Rack APC NetShelter SX 42U AR3350', spec: '19" Professional', quantity: 1 },
             { name: 'Patch Panel', spec: '24p RJ45', quantity: 2 },
-            { name: 'Notebook Dell Inspiron', spec: 'Computador de Usuário', quantity: 4 },
-            { name: 'Impressora HP LaserJet Pro MFP 4103FDW', spec: 'Multifuncional, Duplex', quantity: 5 }
+            { name: 'Notebook Dell Inspiron', spec: 'Computador de Usuário', quantity: 244 },
+            { name: 'Impressora HP LaserJet Pro MFP 4103FDW', spec: 'Multifuncional, Duplex', quantity: 7 }
         ]
     }
 ];
@@ -172,9 +174,6 @@ floorBtns.forEach(btn => {
     });
 });
 
-// Carregar products.js (certifique-se de que products.js está incluído antes deste script)
-
-// Função auxiliar para buscar produto pelo nome (versão aprimorada)
 function findProductByName(name) {
     if (!window.products) return null;
 
@@ -243,7 +242,7 @@ function renderInfrastructureTables() {
     container.innerHTML += `
         <div class="total-gasto-destaque">
             <span class="total-label">Total Investido:</span>
-            <span class="total-valor">R$  R$ 1.492.334,40</span>
+            <span class="total-valor">R$  R$ 1.505.047,12</span>
         </div>
     `;
 }
