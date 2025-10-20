@@ -833,7 +833,8 @@ td.font-medium {
 .datacenter-flow-image {
     display: block;
     width: 100%;       
-    max-width: 360px; 
+    max-width: 660px; 
     height: auto;      
     margin: 0 auto;   
+
 }
